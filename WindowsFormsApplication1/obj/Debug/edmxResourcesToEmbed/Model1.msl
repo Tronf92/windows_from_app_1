@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FLAModelStoreContainer" CdmEntityContainer="FLAEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="FLAModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Prenume" ColumnName="Prenume" />
+          <ScalarProperty Name="Nume" ColumnName="Nume" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

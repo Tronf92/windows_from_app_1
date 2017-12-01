@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FLAModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FLAEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="FLAModel.User" />
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Nume" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Prenume" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="firmeModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="firmeModelStoreContainer" />
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'firme.db_accessadmin.lista_frm' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="lista_frm">
+        <Property Name="Nume" Type="varchar" MaxLength="8" />
+        <Property Name="ID_BURSA" Type="int" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'firme.dbo.Tabel_firme' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="Tabel_firme">
+        <Property Name="Nume firma" Type="varchar(max)" />
+        <Property Name="ID bursa" Type="float" />
+        <Property Name="Traseu" Type="text" />
+        <Property Name="Tonaj" Type="int" />
+        <Property Name="Suma" Type="float" />
+        <Property Name="Pret/km" Type="float" />
+        <Property Name="Termen plata" Type="int" />
+        <Property Name="Achitat" Type="datetime" />
+        <Property Name="Zile intarziere" Type="int" />
+      </EntityType>-->
+</Schema>
